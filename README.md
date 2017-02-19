@@ -1,3 +1,3 @@
 # ladderteampairing.github.io
 
-Just the git hub page for ladderteampairing.github.io
+Just the GitHub page for ladderteampairing.github.io
