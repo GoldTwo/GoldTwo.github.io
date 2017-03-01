@@ -10,7 +10,8 @@ var tablecell_2 = document.createElement("div");
 //Assigns Variable for easier dom 
 var table = document.getElementById("maintable");
 
-tablerow.appendChild(tablecell_1);
-tablerow.appendChild(tablecell_2);
-table.appendChild(tablerow)
+//Dom appendChild's to add the elements 
+tablerow.appendChild(tablecell_1).className("rTableCell");
+tablerow.appendChild(tablecell_2).className("rTableCell");
+table.appendChild(tablerow).className("rTableRow");
 
