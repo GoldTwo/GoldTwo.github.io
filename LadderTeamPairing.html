@@ -2,7 +2,6 @@
 <html>
 	<head>
 		<title>Ladder Based Team Pairing</title>
-		
 		<link rel="stylesheet" href="css/LadderTeamPair.css"/>
 	</head>
 	
@@ -15,6 +14,23 @@
 			</div>
 		</div>
 		
+		<script src="js/LadderTeamPair.js"></script>
+		<script>
+			function addplayer() {
+				var player1 = prompt("Please enter the first player/players", "EX: Brady/Grey OR Taran");
+				var player2 = prompt("Please enter the second player/players", "EX: Paul/Kyle OR Jay");
+				
+				if (player1 != null){
+					console.log(player1);
+				}
+				
+				if (player2 != null){
+					console.log(player2);
+					//teams.push(team_2: player2)
+				}
+			} 			
+		</script>
+		<button onclick = "addplayer()"> Click to add players </button>
 		<!--
 		<div class="rTable">
 			<div class="rTableRow">
@@ -34,7 +50,7 @@
 			<p id="p2">This is another paragraph.</p>
 		</div> -->
 		
-		<!-- Script Section -->
-		<script src="js/LadderTeamPair.js"></script>
+		<!-- Script Section Maybe Not -->
+		
 	</body>
 </html>
